@@ -1,0 +1,37 @@
+{
+  "name": "rakuten-keiba-auto-deposit",
+  "version": "1.0.0",
+  "description": "A project for automatically depositing into Rakuten Keiba",
+  "main": "index.js",
+  "scripts": {
+    "exec": "jest --config=jest/jest.config.js",
+    "start": "npm run exec ./src/runners/deposit.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wata-nbkn/rakuten-keiba-auto-deposit.git"
+  },
+  "author": "wata-nbkn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wata-nbkn/rakuten-keiba-auto-deposit/issues"
+  },
+  "homepage": "https://github.com/wata-nbkn/rakuten-keiba-auto-deposit#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "jest": "^26.1.0",
+    "log4js": "^6.3.0",
+    "puppeteer": "4.0.1",
+    "ts-jest": "^26.1.1",
+    "ts-node": "^8.10.2",
+    "ttypescript": "^1.5.10",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "@types/log4js": "^2.3.5",
+    "@types/node": "^14.0.20",
+    "@types/puppeteer": "3.0.0",
+    "tsconfig-paths": "^3.9.0"
+  }
+}
